@@ -1,0 +1,92 @@
+#header-row {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  height: 120px;
+  background: #161a1d;
+  text-align: center;
+  font-size: 80px;
+  color: azure;
+  padding-top: 16px;
+  padding-left: 16px;
+}
+
+#game-notifications {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.0980392) 0px 2px 4px 0px;
+  box-sizing: border-box;
+  background-color: #e69999;
+  font-family: Lato, Arial, serif;
+  font-size: 16px;
+  font-weight: bold;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#game-container {
+    text-align: center;
+}
+
+#game-status {
+    margin: 30px auto;
+}
+
+#board-container {
+    text-align: center;
+}
+
+/*will need to adjust height/width depending on board size*/
+table {
+    margin: 50px auto 20px auto;
+    table-layout: fixed;
+    width: 560px;
+    height: 560px;
+    z-index: 1000
+}
+
+#board-header-row {
+    width: 560px;
+}
+
+/*will need to adjust height depending on board size*/
+.header-cell {
+    border-style: none;
+    border-color: #FFF;
+    text-align: center;
+}
+
+tr {
+    height: 14.285714285%;
+}
+
+td {
+    border-style: solid;
+    border-color: #161a1d;
+
+}
+
+.board-cell {
+    text-align: center;
+}
+
+.board-piece {
+    z-index: -5000;
+}
+
+#reset-button {
+  border-radius: 2px;
+  border-style: solid;
+  width: 500px;
+  height: 30px;
+  background-color: #161a1d;
+  color: azure;
+  font-family: Lato, Arial, serif;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
