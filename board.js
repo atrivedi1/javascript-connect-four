@@ -334,7 +334,7 @@ $( document ).ready(function(){
 
     function initGame() {
         initBoard();
-        displayStateOfGame("Welcome to connect four! To play, use the mouse to drag your piece over the column where you would like to play and then    release");
+        displayStateOfGame("Welcome to connect four! To play, use the mouse to drag your piece over the column where you would like to play and then drop the piece onto the board");
     }
 
     function resetBoard() {
